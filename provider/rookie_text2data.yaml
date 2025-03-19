@@ -1,0 +1,37 @@
+identity:
+  author: jaguarliuu
+  name: rookie_text2data
+  label:
+    en_US: rookie_text2data
+    zh_Hans: rookie_text2data
+    pt_BR: rookie_text2data
+  description:
+    en_US: Fetching data from the database using natural language.
+    zh_Hans: 使用自然语言获取MySQL数据库数据.
+    pt_BR: Fetching data from the database using natural language.
+  icon: data-collection.svg
+tools:
+  - tools/rookie_text2data.yaml
+credentials_for_provider:
+  db_url:
+    type: text-input
+    required: true
+    default: mysql://root@127.0.0.1:3306/test
+    label:
+      en_US: Database URL
+      zh_Hans: 数据库连接地址
+    description: 
+      en_US: "Format: mysql://username@host:port/database"
+      zh_Hans: "格式：mysql://用户名@主机:端口/数据库名"
+  db_password:
+    type: secret-input
+    required: true
+    label:
+      en_US: Password
+      zh_Hans: 数据库密码
+    description:
+      en_US: "Database account password"
+      zh_Hans: "数据库账户密码"
+extra:
+  python:
+    source: provider/rookie_text2data.py
