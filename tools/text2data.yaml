@@ -41,4 +41,4 @@ parameters:
     form: llm
 extra:
   python:
-    source: tools/rookie_text2data.py
+    source: tools/text2data.py
