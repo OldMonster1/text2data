@@ -1,17 +1,17 @@
 identity:
-  author: jaguarliuu
-  name: rookie_text2data
+  author: OldMonster1
+  name: text2data
   label:
-    en_US: rookie_text2data
-    zh_Hans: rookie_text2data
-    pt_BR: rookie_text2data
+    en_US: text2data
+    zh_Hans: text2data
+    pt_BR: text2data
   description:
     en_US: Fetching data from the database using natural language.
     zh_Hans: 使用自然语言获取MySQL数据库数据.
     pt_BR: Fetching data from the database using natural language.
   icon: data-collection.svg
 tools:
-  - tools/rookie_text2data.yaml
+  - tools/text2data.yaml
 credentials_for_provider:
   db_url:
     type: text-input
@@ -34,4 +34,4 @@ credentials_for_provider:
       zh_Hans: "数据库账户密码"
 extra:
   python:
-    source: provider/rookie_text2data.py
+    source: provider/text2data.py
