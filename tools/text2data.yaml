@@ -1,10 +1,10 @@
 identity:
-  name: rookie_text2data
-  author: jaguarliuu
+  name: text2data
+  author: OldMonster1
   label:
-    en_US: rookie_text2data
-    zh_Hans: rookie_text2data
-    pt_BR: rookie_text2data
+    en_US: text2data
+    zh_Hans: text2data
+    pt_BR: text2data
 description:
   human:
     en_US: Fetching data from the database using natural language.
