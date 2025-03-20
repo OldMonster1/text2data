@@ -54,16 +54,15 @@ class RookieText2dataTool(Tool):
 
                             ## 输出规范：
                             SELECT 
-                                `order_id` AS 订单编号,
-                                `amount` * 1.05 AS 含税金额
+                                *
                             FROM 
-                                `orders` o
+                                `xsdd` o
                             INNER JOIN 
-                                `customers` c ON o.customer_id = c.id
+                                `ggxs` c ON o.customer_id = c.id
                             WHERE 
-                                o.status = 'paid' 
+                                o.`客户编码` = '2414A' 
                                 AND c.region = 'Asia'
-                                AND o.created_at BETWEEN '2025-01-01' AND CURDATE()
+                                AND o.`日期` BETWEEN '2025-3-15' AND CURDATE()
                             LIMIT 100;
                     """
                 ),
