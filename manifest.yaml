@@ -1,12 +1,12 @@
-version: 0.0.1
+version: 0.1
 type: plugin
-author: jaguarliuu
-name: rookie_text2data
+author: OldMonstre1
+name: text2data
 label:
-  en_US: rookie_text2data
-  ja_JP: rookie_text2data
-  zh_Hans: rookie_text2data
-  pt_BR: rookie_text2data
+  en_US: text2data
+  ja_JP: text2data
+  zh_Hans: text2data
+  pt_BR: text2data
 description:
   en_US: Fetching data from the database using natural language.
   ja_JP: Fetching data from the database using natural language.
